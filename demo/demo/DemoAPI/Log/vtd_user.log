@@ -1,0 +1,35 @@
+2016-11-24 17:55:20,917 [15] INFO  - Step 'Start' : Step 'Start' started
+2016-11-24 17:55:20,962 [15] INFO  - Step 'Start' ended successfully
+2016-11-24 17:55:20,963 [15] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2016-11-24 17:55:20,965 [15] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2016-11-24 17:55:20,966 [15] INFO  - Step 'FacebookAPI' : Step 'FacebookAPI' started
+2016-11-24 17:55:20,974 [15] INFO  - Step 'FacebookAPI' : Fetching HTTP Url: 'https://graph.facebook.com/v2.3/me?access_token=EAACEdEose0cBABxrN7ZCweYAnYmqtYZBVFYrxaC9UYUp7adkQXKnwMd5pUx6SLvgqLixF1ZCnsYVYAxC99H6KLmq9XHDs9wbmcbKnjfHk3rPiwbvgUAcgSFGuovn4YCL5j41QycOAOBTECSqtmXkiSoZCpse7TZBZAZBXRIl6xzwwZDZD'
+2016-11-24 17:55:21,342 [15] INFO  - Step 'FacebookAPI' : Server returned status code: 400
+2016-11-24 17:55:21,343 [15] INFO  - Step 'FacebookAPI' : HTTP Raw request:
+2016-11-24 17:55:21,343 [15] INFO  - Step 'FacebookAPI' : GET https://graph.facebook.com/v2.3/me?access_token=EAACEdEose0cBABxrN7ZCweYAnYmqtYZBVFYrxaC9UYUp7adkQXKnwMd5pUx6SLvgqLixF1ZCnsYVYAxC99H6KLmq9XHDs9wbmcbKnjfHk3rPiwbvgUAcgSFGuovn4YCL5j41QycOAOBTECSqtmXkiSoZCpse7TZBZAZBXRIl6xzwwZDZD 1.1
+Host: graph.facebook.com
+Connection: Keep-Alive
+
+2016-11-24 17:55:21,344 [15] INFO  - Step 'FacebookAPI' : HTTP Raw response:
+2016-11-24 17:55:21,345 [15] INFO  - Step 'FacebookAPI' : HTTP/1.1 400 Bad Request
+Access-Control-Allow-Origin: *
+Pragma: no-cache
+x-fb-trace-id: F7Zq6+1uedO
+x-fb-rev: 2702404
+x-app-usage: {"call_count":2,"total_cputime":2,"total_time":2}
+Vary: Accept-Encoding
+X-FB-Debug: V0V0vL+lXH5yHd609j6sf0Yf888+Ti7khnvcKa4DmOYQ+IIJlyQxuxhxKY45O//601+l6Hs7x72gZFsE0tzBxg==
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-store
+Content-Type: text/javascript; charset=UTF-8
+Date: Thu, 24 Nov 2016 13:55:21 GMT
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "Error validating access token: Session has expired on Thursday, 24-Nov-16 04:00:00 PST. The current time is Thursday, 24-Nov-16 05:55:21 PST."
+{"error":{"message":"Error validating access token: Session has expired on Thursday, 24-Nov-16 04:00:00 PST. The current time is Thursday, 24-Nov-16 05:55:21 PST.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"F7Zq6+1uedO"}}
+2016-11-24 17:55:21,350 [15] ERROR - Checkpoint 0: "400" = "200" failed
+2016-11-24 17:55:21,354 [15] INFO  - Step 'FacebookAPI' ended successfully
+2016-11-24 17:55:21,361 [15] INFO  - Step 'Iteration 1' ended successfully
+2016-11-24 17:55:21,363 [15] INFO  - Step 'Test Flow' ended successfully
+2016-11-24 17:55:21,363 [15] INFO  - Step 'End' : Step 'End' started
+2016-11-24 17:55:21,368 [15] INFO  - Step 'End' ended successfully

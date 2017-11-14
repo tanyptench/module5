@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Папа\\Documents\\Module 5\\demo-nosnapshots\\demo\\DemoUI\\Res1',namePairs:[]}]};
