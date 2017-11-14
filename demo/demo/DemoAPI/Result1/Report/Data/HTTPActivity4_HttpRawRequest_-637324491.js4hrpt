@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return 'GET https://graph.facebook.com/v2.3/me?access_token=EAACEdEose0cBABxrN7ZCweYAnYmqtYZBVFYrxaC9UYUp7adkQXKnwMd5pUx6SLvgqLixF1ZCnsYVYAxC99H6KLmq9XHDs9wbmcbKnjfHk3rPiwbvgUAcgSFGuovn4YCL5j41QycOAOBTECSqtmXkiSoZCpse7TZBZAZBXRIl6xzwwZDZD 1.1\r\nHost: graph.facebook.com\r\nConnection: Keep-Alive\r\n';}
